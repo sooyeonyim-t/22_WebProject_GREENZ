@@ -1,0 +1,57 @@
+*{
+  font-family: 'Hahmlet', serif;
+}
+.name{
+  margin-top: 350px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#hr1{
+  background-color:#151515;
+  height: 2px;
+}
+.box{
+  margin-top: 40px;
+}
+.user, .user1, .user2{
+  position: absolute;
+  left:150px;
+  margin-top: -9px;
+  margin-left: 50px;
+  width: 400px;
+  height: 40px;
+}
+
+.in1
+{
+  margin-left: 113px;
+  width: 200px;
+  height: 40px;
+  margin-top: -9px;
+}
+.in
+{
+  width: 180px;
+  height: 40px;
+  margin-top: -9px;
+}
+.in:read-only
+{
+  background-color:white;
+}
+#sel
+{
+  margin-top: -4px;
+  padding:7px;
+  height: 40px;
+  vertical-align:middle;
+}
+.info{
+  display: inline;
+}
+#hr1{
+  margin-bottom: 80px;
+}
+#two_line, #three_line{
+  margin-top: 150px;
+}

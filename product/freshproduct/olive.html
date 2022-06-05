@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SOURCE</title>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="product.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="product.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  </style>
+</head>
+<body>
+
+
+  <div class="container" id="one_line">
+    <div class="row img">
+    <div class="col-sm-6 img">
+      <img src="source_img/olive.jpg" class="img-rectangle img-responsive">
+    </div>
+    <div class="col-sm-6 name">
+      <h3 id="product">엑스트라버진 올리브오일</h3>
+      <p class="explain1">이탈리아 정통 오일 브랜드의 엑스트라버진 올리브유</p>
+      <h3 class="price" id="product1">9900</h3><p class="won"> 원</p>
+      <hr>
+      <p class="explain2">판매단위 &nbsp; &nbsp; &nbsp; &nbsp; 1병</p>
+      <p class="explain2">중량/용량 &nbsp; &nbsp; &nbsp; &nbsp; 500ml</p>
+      <p class="explain2">포장타입 &nbsp; &nbsp; &nbsp; &nbsp; 상온/종이포장</p>
+      <p class="explain2">안내사항 &nbsp; &nbsp; &nbsp; &nbsp; 수입 지연으로 6월 첫주 입고예정입니다.</p>
+      <hr>
+
+      <form class="form-inline">
+      <div class="form-group">
+      <label class="number">구매 수량</label>
+      <input type="number" class="form-control" value="1" min="0" id="number" onclick="allPrice();"><br>
+      </div>
+      </form>
+      <hr>
+      <div class="all_price">
+      <p class="explain">총 상품 금액</p>
+      <h3 id="private">9900</h3>
+      </div>
+      <div class="bc">
+        <a class="btn btn-default cart" onclick="Carting();">장바구니 담기</a>
+        <a href="cart.html" class="btn btn-default buy">장바구니로 이동</a>
+    </div>
+    </div>
+
+  </div>
+
+
+
+  </div>
+</html>

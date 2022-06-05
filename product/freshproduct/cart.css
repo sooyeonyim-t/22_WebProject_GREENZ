@@ -1,0 +1,65 @@
+*{
+  font-family: 'Hahmlet', serif;
+}
+.name{
+  margin-top: 350px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#hr1{
+  background-color:#151515;
+  height: 2px;
+}
+.img{
+  margin-left: 60px;
+}
+#cart_name{
+  display: inline;
+  margin-left: 20px;
+}
+.sum_button{
+  background-color: white;
+  font-size: 30px;
+  font-weight: 1000;
+  width: 40px;
+  height: 40px;
+}
+#cart_price1, #cart_price2, #cart_price3{
+  display: inline;
+  margin-left: 70px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.sum{
+  display: inline;
+  position: absolute;
+  bottom:100px;
+  left:800px;
+}
+
+#cart_count1, #cart_count2, #cart_count3{
+  background-color: white;
+  font-size: large;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+}
+
+.sk2{
+display: inline;
+}
+#two_line
+{
+  text-align: right;
+}
+#three_line
+{
+  margin-top: 50px;
+  text-align: right;
+}
+#jm{
+    font-size: large;
+    font-weight: 900;
+    width: 300px;
+    height: 40px;
+}
