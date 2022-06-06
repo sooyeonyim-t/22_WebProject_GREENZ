@@ -22,6 +22,17 @@
 <body>
 
 
+<div class="container" id="zero_line">
+  <h3 style="padding-top: 20px;">대전/충청 일부 지역에 신선배송 서비스가 시작됩니다!</h3>
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="glyphicon glyphicon-home"></span>
+          <p id="dawn">이제부터 새벽에 배송됩니다.<br>
+            매일 23시 전 주문하시면,<br> 다음날 아침 7시에 받아 보실 수 있어요!</p>
+        </div>
+      </div>
+</div>
+
   <div class="container" id="one_line">
     <h1 class="name">ORDER</h1>
     <div class="row">
@@ -33,15 +44,15 @@
     <form>
       <div class="form-group box">
         <label style="font-size: large;">* 주문하시는 분</label>
-        <input type="text" class="user">
+        <input type="text" required class="user">
         </div>
         <div class="form-group box">
           <label style="font-size: large;">* 휴대폰 번호</label>
-          <input type="text" class="user" placeholder="-없이 입력하세요">
+          <input type="text" required class="user" placeholder="-없이 입력하세요">
           </div>
           <div class="form-group box">
             <label style="font-size: large;">* 이메일</label>
-            <input name="email1" class="in1" type="text"> @ <input class="in" name="email2" type="text">
+            <input name="email1" required class="in1" type="text"> @ <input class="in" name="email2" type="text">
             <select id="sel" name="select_email" onChange="selectEmail(this)">
               <option value="" selected>선택하세요</option>
               <option value="naver.com">naver.com</option>
@@ -68,9 +79,7 @@
       </div>
       <div class="form-group box">
         <label style="font-size: large;">* 받으실곳</label>
-        <input type="text" class="user" placeholder="도로명 주소로 기입">
-        <input type="text" placeholder="도로명 주소로 기입">
-        <input type="text"  placeholder="도로명 주소로 기입">
+        <input type="text" class="user" placeholder="지역명(동/리) + 번지">
         </div>
         <div class="form-group box">
           <div class="form-group box">
@@ -80,7 +89,7 @@
           </div>
           <div class="form-group box">
             <label style="font-size: large;">남기실 말씀</label>
-            <input type="text" class="user">
+            <input type="text" class="user1">
             </div>
   </form>
   </div>
@@ -90,33 +99,80 @@
 <div class="container" id="three_line">
   <div class="row">
   <div class="col-sm-12">
-  <h3 class="info">결제수단 선택/ 결제</h3>
-  <p class="info">(*표시는 필수 입력 항목입니다.)</p>
+  <h3 class="info">결제수단 선택 / 결제</h3>
   <hr>
   <form>
     <div class="form-group box">
-      <label style="font-size: large;">* 받으실분</label>
-      <input type="text" class="user">
+      <input type="checkbox" class="check">
+      <label style="font-size: large; margin-left: 25px;"> 신용카드</label>
+      <select id="sel2" name="select_email" onChange="selectEmail(this)">
+        <option value="" selected>카드를 선택해주세요</option>
+        <option value="naver.com">신한</option>
+        <option value="gmail.com">하나</option>
+        <option value="hanmail.com">농협</option>
+        <option value="hanmail.com">국민</option>
+      </select>
+
+      <select id="sel3" name="select_email" onChange="selectEmail(this)">
+        <option value="" selected>일시불</option>
+        <option value="naver.com">1개월</option>
+        <option value="gmail.com">3개월</option>
+        <option value="hanmail.com">5개월</option>
+        <option value="hanmail.com">7개월</option>
+      </select>
       </div>
+
       <div class="form-group box">
-        <label style="font-size: large;">* 받으실곳</label>
-        <input type="text" class="user" placeholder="도로명 주소로 기입">
+      <input type="text" class="cardnum" placeholder="카드번호를 입력하세요.">
+      <input type="date" class="date">
+      <input type="text" class="cv" placeholder="CVC 번호를 입력하세요.">
+      <br>
+      </div>
+
+      <div class="form-group box">
+        <input type="checkbox" class="check">
+        <label style="font-size: large;margin-left: 25px;"> 무통장입금</label>
+        <select id="sel4" name="select_email" onChange="selectEmail(this)">
+          <option value="" selected>은행을 선택해주세요.</option>
+          <option value="naver.com">신한 1234-34-2342-13</option>
+          <option value="gmail.com">하나 1234-34-2342-13</option>
+          <option value="hanmail.com">농협 1234-34-2342-13</option>
+          <option value="hanmail.com">국민 1234-34-2342-13</option>
+        </select>
         </div>
         <div class="form-group box">
+          <input type="checkbox" class="check">
+          <label style="font-size: large; margin-left: 25px;"> 계좌이체</label>
+          <select id="sel4" name="select_email" onChange="selectEmail(this)">
+            <option value="" selected>은행을 선택해주세요.</option>
+            <option value="naver.com">신한 1234-34-2342-13</option>
+            <option value="gmail.com">하나 1234-34-2342-13</option>
+            <option value="hanmail.com">농협 1234-34-2342-13</option>
+            <option value="hanmail.com">국민 1234-34-2342-13</option>
+          </select>
+
           <div class="form-group box">
-            <label style="font-size: large;">* 휴대폰 번호</label>
-            <input type="text" class="user" placeholder="-없이 입력하세요">
-            </div>
-          </div>
-          <div class="form-group box">
-            <label style="font-size: large;">남기실 말씀</label>
-            <input type="text" class="user">
+            <input type="checkbox" class="check">
+            <label style="font-size: large; margin-left: 25px;"> 휴대폰 결제</label>
+            <select id="sel4" name="select_email" onChange="selectEmail(this)">
+              <option value="" selected>통신사를 선택해주세요.</option>
+              <option value="naver.com">SKT</option>
+              <option value="gmail.com">KT</option>
+              <option value="hanmail.com">LG U+</option>
+              <input type="text" id="phone" placeholder="휴대폰 번호 입력">
+            </select>
             </div>
   </form>
+
   </div>
 </div>
+
+</div>
+<input type="submit" id="jumun" class="btn btn-default" onclick="order()" value="상품 주문하기">
 </div>
 
+<div id="footer">
+</div>
 
 
 

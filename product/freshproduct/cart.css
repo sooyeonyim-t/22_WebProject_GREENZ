@@ -17,6 +17,9 @@
   display: inline;
   margin-left: 20px;
 }
+#footer{
+  height: 800px;
+}
 .sum_button{
   background-color: white;
   font-size: 30px;
@@ -57,9 +60,14 @@ display: inline;
   margin-top: 50px;
   text-align: right;
 }
+#jm:hover{
+  background-color: black;
+  color:white;
+}
 #jm{
-    font-size: large;
+    font-size: x-large;
+    padding-top: 10px;
     font-weight: 900;
-    width: 300px;
-    height: 40px;
+    width: 400px;
+    height: 60px;
 }
