@@ -1,6 +1,9 @@
 *{
   font-family: 'Hahmlet', serif;
 }
+
+
+
 #navbar{
   margin-top: 390px;
   margin-left: -100px;
@@ -100,9 +103,12 @@
 #one_line{
   margin-top: 300px;
 }
-#two_line{
+.two_line{
   margin-top: 80px;
 }
 #three_line{
   margin-top: 80px;
+}
+#footer{
+  height: 300px;
 }
