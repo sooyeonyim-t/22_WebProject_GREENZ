@@ -1,8 +1,28 @@
 *{
   font-family: 'Hahmlet', serif;
 }
-
-
+.rolling_panel
+{
+  position: relative; 
+  width: 625px;
+  height: 150px;
+  margin: 0; padding: 0; border: 1px solid #c7c7c7; overflow: hidden; }
+.rolling_panel ul { position: absolute; margin: 5px; padding: 0; list-style: none; }
+.rolling_panel ul li { float: left; width: 205px; height: 140px;}
+#one {
+  margin-top: 150px;
+}
+.slider {
+  width: 100px;
+  height: 100px;
+}
+.box {
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+}
 
 #navbar{
   margin-top: 390px;
@@ -99,6 +119,9 @@
   display: none;
   width: 290px;
 	opacity: 1.0;
+}
+#line{
+  margin-top: 100px;
 }
 #one_line{
   margin-top: 300px;
