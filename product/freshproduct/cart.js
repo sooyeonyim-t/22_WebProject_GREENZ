@@ -1,6 +1,4 @@
 
-
-
 function CalCountplus(seq){
   var id;
   var all_money;

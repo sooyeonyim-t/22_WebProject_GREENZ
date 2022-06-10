@@ -11,7 +11,7 @@
   height: 2px;
 }
 #dawn{
-  margin-top: -55px;
+  margin-top: -78px;
   margin-left: 300px;
 }
 .box{
@@ -22,7 +22,7 @@
   color:black;
   font-size: 50px;
   margin-left: -600px;
-  margin-top: 35px;
+  margin-top: 30px;
 
   animation-name : myanim;
   animation-duration : 4s;
@@ -72,7 +72,7 @@
 }
 #phone{
   margin-top: -5px;
-  margin-left: 270px;
+  margin-left: 130px;
   width: 170px;
   height: 40px;
 }
@@ -130,7 +130,7 @@
 }
 #sel2{
   margin-top: -9px;
-  margin-left: 90px;
+  margin-left: 60px;
   padding:7px;
   height: 40px;
   vertical-align:middle;

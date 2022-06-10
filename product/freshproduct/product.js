@@ -6,19 +6,14 @@ function allPrice(){
   document.getElementById("private").innerHTML=price;
 }
 
-function Buying(){
-  var name=document.getElementById("product").innerHTML;
-  var sum=document.getElementById("private").innerHTML;
-  var num=document.getElementById("number").value;
-
-  alert('구매상품 : '+name+'\n'+'개수 : '+num+'\n'+'합계 : '+sum+'\n');
-}
-
 function Carting(){
   var name=document.getElementById("product").innerHTML;
   var sum=document.getElementById("private").innerHTML;
   var num=document.getElementById("number").value;
 
-  alert('구매상품 : '+name+'\n'+'개수 : '+num+'\n'+'합계 : '+sum+'\n');
+  alert('Purchased goods : '+name+'\n'+'Number : '+num+'\n'+'Sum : '+sum+'\n');
+  localStorage.setItem('name',name);
+  localStorage.setItem('sum',sum);
+  localStorage.setItem('num',num);
 
 }

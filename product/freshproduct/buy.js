@@ -52,7 +52,7 @@ function selectEmail4(ele){
 function order(){
 
   var checkbox=document.getElementsByName("boxes");
-  var msg="결제 정보";
+  var msg="Payment Information";
 
   for(var i=0;i<checkbox.length;i++)
   {
@@ -65,31 +65,31 @@ function order(){
         var x= document.getElementById("cardnum1").value;
         var cont=s.options[s.selectedIndex].value;
         var cons=v.options[v.selectedIndex].value;
-        var st="신용카드"
-        alert(msg+'\n'+'결제수단: '+st+'\n'+cont+'/'+cons+'/'+x);
+        var st="Credit card"
+        alert(msg+'\n'+'Payment method: '+st+'\n'+cont+'/'+cons+'/'+x);
       }
       else if(i==1)
       {
         var s= document.getElementById("sel4");
         var cont=s.options[s.selectedIndex].value;
-        var st="무통장입금"
-        alert(msg+'\n'+'결제수단: '+st+'\n'+cont);
+        var st="make a deposit"
+        alert(msg+'\n'+'Payment method: '+st+'\n'+cont);
 
       }
       else if(i==2)
       {
         var s= document.getElementById("sel5");
         var cont=s.options[s.selectedIndex].value;
-        var st="계좌이체"
-        alert(msg+'\n'+'결제수단: '+st+'\n'+cont);
+        var st="account transfer"
+        alert(msg+'\n'+'Payment method: '+st+'\n'+cont);
       }
       else if(i==3)
       {
         var s= document.getElementById("sel6");
         var cont=s.options[s.selectedIndex].value;
         var x= document.getElementById("phone").value;
-        var st="휴대폰 결제"
-        alert(msg+'\n'+'결제수단: '+st+'\n'+cont+'/'+x);
+        var st="Mobile phone payment"
+        alert(msg+'\n'+'Payment method: '+st+'\n'+cont+'/'+x);
       }
       }
 
