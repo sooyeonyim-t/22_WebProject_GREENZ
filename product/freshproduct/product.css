@@ -39,6 +39,14 @@
 .cart{
   width: 400px;
 }
+#co:hover{
+  background-color: black;
+  color:white;
+}
+#co1:hover{
+  background-color: black;
+  color:white;
+}
 #private{
   font-size: x-large;
   font-weight: 800;

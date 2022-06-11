@@ -12,8 +12,6 @@ function Carting(){
   var num=document.getElementById("number").value;
 
   alert('Purchased goods : '+name+'\n'+'Number : '+num+'\n'+'Sum : '+sum+'\n');
-  localStorage.setItem('name',name);
-  localStorage.setItem('sum',sum);
-  localStorage.setItem('num',num);
+
 
 }
