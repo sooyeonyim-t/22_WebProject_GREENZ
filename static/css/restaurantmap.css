@@ -91,18 +91,27 @@ html{
     bottom:0;
     padding-top: 140px;
     right: 30px;
-    width: 280px;
+    width: 400px;
     overflow-y:scroll;
     overflow-x:hidden;
 
 }
 .panel1::-webkit-scrollbar{
-    /*ìŠ¤í¬ë¡¤ ì•ˆë³´ì´ê²Œ í•˜ëŠ” ë¶€ë¶„*/
+    /*?Š¤?¬ë¡? ?•ˆë³´ì´ê²? ?•˜?Š” ë¶?ë¶?*/
     display:none;
 }
 .panel1 p{
-    font-size: 10px;
+    font-size: 15px;
 }
+
+.panel-body {
+    height: 200px;
+}
+
+h4 {
+    font-size: 100px;
+}
+
 .addr{
     color: #bbbbbb;
 }
