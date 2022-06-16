@@ -59,10 +59,16 @@
   margin-top: 35px;
 }
 .buy{
-  width:150px;
+  width:250px;
+  height: 40px;
+  font-size:16px !important;
+  font-weight: bold !important;
 }
 .cart{
-  width: 400px;
+  width: 300px;
+  height: 40px;
+  font-size:16px !important;
+  font-weight: bold !important;
 }
 #co:hover{
   background-color: black;
