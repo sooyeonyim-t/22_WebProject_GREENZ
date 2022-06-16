@@ -94,6 +94,17 @@ display: inline;
   background-color: black;
   color:white;
 }
+#jm1:hover{
+  background-color: black;
+  color:white;
+}
+#jm1{
+    font-size: x-large;
+    padding-top: 10px;
+    font-weight: 900;
+    width: 300px;
+    height: 60px;
+}
 #jm{
     font-size: x-large;
     padding-top: 10px;

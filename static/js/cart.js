@@ -94,3 +94,8 @@ function CalCountminus(seq){
   document.getElementById("result_price").innerHTML=parseInt(document.getElementById("sk").innerHTML)+2000;
 
 }
+function recipe()
+{
+  alert('You can make vegan tofu sandwiches! \nDo you want to go to the recipe page?');
+  document.location.href="../templates/Recipe5.html";
+}
