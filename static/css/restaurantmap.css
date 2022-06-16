@@ -90,15 +90,28 @@ html{
     top: 0;
     bottom:0;
     padding-top: 140px;
-    right: 10px;
-    width: 280px;
+    right: 30px;
+    width: 400px;
     overflow-y:scroll;
     overflow-x:hidden;
 
 }
-.panel1 p{
-    font-size: 10px;
+.panel1::-webkit-scrollbar{
+    /*?ä§?Å¨Î°? ?ïàÎ≥¥Ïù¥Í≤? ?ïò?äî Î∂?Î∂?*/
+    display:none;
 }
+.panel1 p{
+    font-size: 15px;
+}
+
+.panel-body {
+    height: 200px;
+}
+
+h4 {
+    font-size: 100px;
+}
+
 .addr{
     color: #bbbbbb;
 }
