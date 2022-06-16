@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+* {
+  font-family: 'Hahmlet', serif;
+}
+>>>>>>> bfa29f6274bbe0803568e4393aac84662bd5b436
 
 body {
   width: 100%;
@@ -80,7 +86,7 @@ section {
 }
 
 .intro-typing {
-  width: 41.6ch;
+  width: 38ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -137,6 +143,10 @@ section {
   text-align: center;
   height: 30%;
   padding-top: 100px;
+}
+
+.click-div {
+  width: 1000px;
 }
 
 .click-text {
@@ -209,7 +219,6 @@ section {
   font-size: 15px;
   line-height: 24px;
   color: #737373;
-  margin-bottom: 30px
 }
 
 .site-footer hr {
