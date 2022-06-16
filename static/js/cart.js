@@ -21,6 +21,18 @@ function CalCountplus(seq){
     all_money="cart_price3";
     money=1990;
   }
+  else if(parseInt(seq)==4)
+  {
+    id="cart_count4";
+    all_money="cart_price4";
+    money=5480;
+  }
+  else if(parseInt(seq)==5)
+  {
+    id="cart_count5";
+    all_money="cart_price5";
+    money=4980;
+  }
   var price=parseInt(document.getElementById(id).value);
 
   document.getElementById(id).value=price+1;
@@ -56,6 +68,18 @@ function CalCountminus(seq){
     id="cart_count3";
     all_money="cart_price3";
     money=1990;
+  }
+  else if(parseInt(seq)==4)
+  {
+    id="cart_count4";
+    all_money="cart_price4";
+    money=5480;
+  }
+  else if(parseInt(seq)==5)
+  {
+    id="cart_count5";
+    all_money="cart_price5";
+    money=4980;
   }
 
   var price=parseInt(document.getElementById(id).value);
